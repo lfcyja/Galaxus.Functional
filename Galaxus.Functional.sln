@@ -4,13 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{C0E5CF1C-E913-4E43-8A1E-08873584A669}"
-ProjectSection(SolutionItems) = preProject
-	.gitignore = .gitignore
-	README.md = README.md
-	LICENSE = LICENSE
-	.editorconfig = .editorconfig
-	Package.props = Package.props
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+		LICENSE = LICENSE
+		.editorconfig = .editorconfig
+		Package.props = Package.props
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxus.Functional", "Galaxus.Functional\Galaxus.Functional.csproj", "{5CD53145-49E8-4391-8EBE-BB2A2172097C}"
 EndProject
@@ -19,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxus.Functional.NUnit", "Galaxus.Functional.NUnit\Galaxus.Functional.NUnit.csproj", "{8B1AADAE-ECB4-445F-83C6-0A6BC317C104}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxus.Functional.NUnit.Test", "Galaxus.Functional.NUnit.Test\Galaxus.Functional.NUnit.Test.csproj", "{26AC75EB-403C-47F7-858E-32EC22C32A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxus.Functional.Blazor", "Galaxus.Functional.Blazor\Galaxus.Functional.Blazor.csproj", "{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,5 +83,17 @@ Global
 		{26AC75EB-403C-47F7-858E-32EC22C32A8C}.Release|x64.Build.0 = Release|Any CPU
 		{26AC75EB-403C-47F7-858E-32EC22C32A8C}.Release|x86.ActiveCfg = Release|Any CPU
 		{26AC75EB-403C-47F7-858E-32EC22C32A8C}.Release|x86.Build.0 = Release|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Debug|x64.Build.0 = Debug|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Debug|x86.Build.0 = Debug|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Release|x64.ActiveCfg = Release|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Release|x64.Build.0 = Release|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Release|x86.ActiveCfg = Release|Any CPU
+		{4D0CD747-C6E4-4A8E-9037-BC1B38A5F0A9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
